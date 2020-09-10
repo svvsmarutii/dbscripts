@@ -1,7 +1,7 @@
 --liquibase formatted sql
 --changeset llteam:TLL-001
 
-create schema account_workflow;
+
 CREATE SEQUENCE account_workflow.account_analysis_activity_log_id_seq
     AS integer
     START WITH 1
