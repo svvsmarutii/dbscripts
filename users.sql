@@ -198,7 +198,7 @@ CREATE SEQUENCE users.accountsequence INCREMENT 1 START 1;
 ALTER TABLE users.users ALTER COLUMN state type varchar(50);
 ALTER TABLE users.audit_log DROP COLUMN process_time;
 ALTER TABLE users.audit_log Add column process_time timestamp with time zone;
-remove spaces in seed file  ---- states table (users)
+--remove spaces in seed file  ---- states table (users)
 	
 ALTER TABLE users.email_verification_status DROP COLUMN last_email_time;
 ALTER TABLE users.email_verification_status Add column last_email_time timestamp with time zone;
