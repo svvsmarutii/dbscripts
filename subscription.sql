@@ -31,7 +31,7 @@ CREATE SEQUENCE subscription.coupon_sequence
     CACHE 1
     CYCLE;
 
-ALTER TABLE subscription.coupon_sequence OWNER TO subscription_rw_app;
+
 
 CREATE SEQUENCE subscription.customer_sequence
     INCREMENT 1
@@ -40,7 +40,7 @@ CREATE SEQUENCE subscription.customer_sequence
     MAXVALUE 9223372036854775807
     CACHE 1;
 
-ALTER SEQUENCE subscription.customer_sequence OWNER TO subscription_rw_app;
+
 	
 CREATE SEQUENCE subscription.subscription_sequence
     INCREMENT 1
@@ -49,7 +49,7 @@ CREATE SEQUENCE subscription.subscription_sequence
     MAXVALUE 9223372036854775807
     CACHE 1;
 
-ALTER SEQUENCE subscription.subscription_sequence OWNER TO subscription_rw_app;
+
 
 
 SET default_tablespace = '';
