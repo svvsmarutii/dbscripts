@@ -176,7 +176,7 @@ CREATE TABLE retirement.yodlee_log_table (
     created_date timestamp without time zone,
     updated_date timestamp without time zone
 );
-ALTER TABLE retirement.yodlee_log_table OWNER TO "arun.g@motivitylabs.com";
+
 
 
 CREATE TABLE retirement.yodlee_providers (
