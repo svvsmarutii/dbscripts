@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.17
 INSERT INTO users.registration_states(state, state_desc) VALUES ("accountanalysis", "Account analysis completed");
 INSERT INTO users.registration_states(state, state_desc) VALUES ("accountoptimization", "account optimization");
 INSERT INTO users.registration_states(state, state_desc) VALUES ("cancelled", "This is cancelled");

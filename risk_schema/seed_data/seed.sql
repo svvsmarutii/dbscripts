@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.14
 INSERT INTO risk.risk_questions(
 	id, active, text)
 	VALUES (1, 't', 'How much do you have saved for Retirement?');

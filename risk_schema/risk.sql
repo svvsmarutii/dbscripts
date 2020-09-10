@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.7
 create schema risk;
 --
 -- PostgreSQL database dump

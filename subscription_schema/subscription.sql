@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.5
 create schema subscription;
 
 --

@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.11
 INSERT INTO retirement_account.yodlee_supported_acctype(id, account_type, friendlyname, yodleename)VALUES (1,ira,Traditional IRA,IRA);
 INSERT INTO retirement_account.yodlee_supported_acctype(id, account_type, friendlyname, yodleename)VALUES (2,ira,Traditional IRA,INDIVIDUAL_RETIREMENT_ACCOUNT_IRA);
 INSERT INTO retirement_account.yodlee_supported_acctype(id, account_type, friendlyname, yodleename)VALUES (3,ira,Simple IRA,SIMPLE);

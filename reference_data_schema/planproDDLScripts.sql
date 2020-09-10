@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-002
 CREATE TABLE reference_data.plan_pro_parser
 (
     last_parse_timestamp character varying(30) COLLATE pg_catalog."default"

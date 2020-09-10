@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.6
 create schema retirement_account;
 --
 -- PostgreSQL database dump

@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.8
 create schema users;
 --
 -- PostgreSQL database dump

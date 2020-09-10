@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.3
 CREATE SCHEMA retirement;
 ALTER SCHEMA retirement OWNER TO postgres;
 SET default_tablespace = '';

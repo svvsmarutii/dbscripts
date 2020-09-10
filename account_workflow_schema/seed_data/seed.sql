@@ -1,4 +1,5 @@
-
+--liquibase formatted sql
+--changeset llteam:TLL-001.9
 --###########################LOOKUP TABLES DATA INSERT QUERIES##############################
 
 INSERT INTO account_workflow.analysis_status(	id, name, isactive, created_at, description)VALUES (1, 'analysis_pending', true, Now(), 'To initiate analysis');

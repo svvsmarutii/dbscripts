@@ -1,3 +1,5 @@
+--liquibase formatted sql
+--changeset llteam:TLL-001.16
 INSERT INTO subscription.tenant_subscription_products VALUES (1, 1, 'Basic', 'prod_H4foVPeyDe6OsP', 'test-tenant-123');
 INSERT INTO subscription.tenant_subscription_products VALUES (2, 2, 'Signature', 'prod_H2J8uLQ3P8McH4', 'test-tenant-123');
 INSERT INTO subscription.tenant_subscription_products VALUES (3, 3, 'Premium', 'prod_H4fqYwFWCQR1oi', 'test-tenant-123');
