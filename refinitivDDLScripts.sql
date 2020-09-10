@@ -1,5 +1,6 @@
 --liquibase formatted sql
 --changeset llteam:TLL-000.2
+CREATE schema reference_data
 CREATE TABLE reference_data.data_load_def
 (
     def_id character varying(255) COLLATE pg_catalog."default" NOT NULL,
