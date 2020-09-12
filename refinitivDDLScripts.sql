@@ -467,21 +467,3 @@ ON reference_data.FUND_XREF_CODES (assetid, asofdate);
 CREATE INDEX SHARECLASS_XREF_CODES_INDEX
 ON reference_data.SHARECLASS_XREF_CODES (assetid, asofdate);
 
-CREATE TABLE reference_data.cross_reference_codes
-(
-    cross_ref_type_id integer NOT NULL,
-    create_timestamp timestamp without time zone,
-    cross_ref_type_name character varying(255) COLLATE pg_catalog."default",
-    definition text COLLATE pg_catalog."default",
-    status boolean,
-    update_timestamp timestamp without time zone,
-    xpath character varying(255) COLLATE pg_catalog."default",
-    CONSTRAINT cross_reference_codes_pkey PRIMARY KEY (cross_ref_type_id)
-)
-WITH (
-    OIDS = FALSE
-)
-TABLESPACE pg_default;
-
-ALTER TABLE reference_data.cross_reference_codes
-    OWNER to postgres;
