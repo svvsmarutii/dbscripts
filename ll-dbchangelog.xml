@@ -4,7 +4,6 @@
     <include file="refinitivDDLScripts.sql" relativeToChangelogFile="true"/>
     <include file="AccountAnalysisDDLScripts.sql" relativeToChangelogFile="true"/>
     <include file="retirement_schema.sql" relativeToChangelogFile="true"/>
-    <include file="retirementacount.sql" relativeToChangelogFile="true"/>
     <include file="seed.sql" relativeToChangelogFile="true"/>
     <include file="subscription.sql" relativeToChangelogFile="true"/>
     <include file="retirement_schema/seed/seed.sql" relativeToChangelogFile="true"/>
